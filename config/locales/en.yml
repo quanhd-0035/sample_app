@@ -31,6 +31,7 @@
 
 en:
   hello: "Hello world"
+
   static_pages:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -39,6 +40,7 @@ en:
       sentence_1: "This is the home page for the"
       link_1: "Ruby on Rails Tutorial"
       sentence_2: "sample application."
+      sign_up: "Sign up now!"
 
     help:
       title: "Help"
@@ -59,5 +61,27 @@ en:
       sentence_4: "to teach web development with"
       link_4: "Ruby on Rails"
       sentence_5: "This is the sample application for the tutorial."
+    
+    contact:
+      title:  "Contact"
+      text_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      text_2: "contact page"
+    
+    signup:
+      title: "Sign up"
+      temp: "This will be a signup page for new users."
 
-  footer: "Khi nào có link bình chọn Morning Speech của tuần 1 tháng 7, hãy vote cho em!!!!!!!!!"
+  footer:
+    text_1: "The"
+    text_2: "Ruby on Rails Tutorial"
+    text_3: "by"
+    text_4: "Michael Hartl"
+    news: "News"
+  
+  text_PR: "Khi nào có link bình chọn Morning Speech của tuần 1 tháng 7, hãy vote cho em!!!!!!!!!"
+
+  header:
+    sample-app: "Sample App"
+    home: "Home"
+    help: "Help"
+    log-in: "Log in"
