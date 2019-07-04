@@ -69,7 +69,14 @@ en:
     
     signup:
       title: "Sign up"
-      temp: "This will be a signup page for new users."
+      submit: "Create my account"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+
+    errors:
+      text_1: "The form contains"
 
   footer:
     text_1: "The"
@@ -79,6 +86,10 @@ en:
     news: "News"
   
   text_PR: "Khi nào có link bình chọn Morning Speech của tuần 1 tháng 7, hãy vote cho em!!!!!!!!!"
+
+  flash:
+    signup_success: "Welcome to the Sample App!"
+    signup_fail: "Fail Signup"
 
   header:
     sample-app: "Sample App"

@@ -1,3 +1,23 @@
 <% provide :title, t("static_pages.signup.title") %>
 <h1><%= t "static_pages.signup.title" %></h1>
-<p><%= t "static_pages.signup.temp" %></p>
+<div class="row">
+  <div class="col-md-6 offset-md-3">
+    <%= form_for(@user, url: signup_path) do |f| %>
+      <%= render 'shared/error_messages' %>
+
+      <%= f.label t("static_pages.signup.name") %>
+      <%= f.text_field :name, class: "form-control" %>
+
+      <%= f.label t("static_pages.signup.email") %>
+      <%= f.email_field :email, class: "form-control" %>
+
+      <%= f.label t("static_pages.signup.password") %>
+      <%= f.password_field :password, class: "form-control" %>
+
+      <%= f.label t("static_pages.signup.confirmation") %>
+      <%= f.password_field :password_confirmation, class: "form-control" %>
+
+      <%= f.submit t("static_pages.signup.submit"), class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
