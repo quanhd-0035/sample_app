@@ -41,6 +41,10 @@ en:
       link_1: "Ruby on Rails Tutorial"
       sentence_2: "sample application."
       sign_up: "Sign up now!"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      account: "Account"
 
     help:
       title: "Help"
@@ -78,6 +82,12 @@ en:
     errors:
       text_1: "The form contains"
 
+    login:
+      title: "Log in"
+      email: "Email"
+      password: "Password"
+      text: "New user?"
+
   footer:
     text_1: "The"
     text_2: "Ruby on Rails Tutorial"
@@ -90,9 +100,11 @@ en:
   flash:
     signup_success: "Welcome to the Sample App!"
     signup_fail: "Fail Signup"
+    login_fail: "Invalid email/password combination"
 
   header:
-    sample-app: "Sample App"
+    sample_app: "Sample App"
     home: "Home"
     help: "Help"
-    log-in: "Log in"
+    log_in: "Log in"
+    users: "User"
