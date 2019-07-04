@@ -12,7 +12,7 @@ class UsersController < ApplicationController
       redirect_to @user
     else
       flash[:success] = t "flash.signup_fail"
-      render "new"
+      render :new
     end
   end
 
