@@ -86,6 +86,7 @@ en:
       title: "Log in"
       email: "Email"
       password: "Password"
+      remember_me: "Remember me on this computer"
       text: "New user?"
 
   footer:
