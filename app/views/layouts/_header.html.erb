@@ -12,7 +12,7 @@
         </li>
         <% if logged_in? %>
           <li class="nav-item">
-            <%= link_to t("header.users"), "#", class: "nav-link" %>
+            <%= link_to t("header.users"), users_path, class: "nav-link" %>
           </li>
           <li class="nav-item dropdown">
             <%= link_to t("static_pages.home.account"),
@@ -24,7 +24,7 @@
             <div class="dropdown-menu dropdown-menu-right" 
                   aria-labelledby="navbarDropdownMenuLink">
               <%= link_to t("static_pages.home.profile"), current_user, class: "dropdown-item" %>
-              <%= link_to t("static_pages.home.settings"), "#", class: "dropdown-item" %>
+              <%= link_to t("static_pages.home.settings"), edit_user_path(current_user), class: "dropdown-item" %>
               <div class="dropdown-divider"></div>
               <%= link_to t("static_pages.home.logout"), logout_path, method: :delete, class: "dropdown-item" %>
             </div>

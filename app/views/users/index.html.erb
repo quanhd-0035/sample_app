@@ -1,0 +1,10 @@
+<% provide :title, t("static_pages.users_index.title") %>
+<h1><%= t "static_pages.users_index.title" %></h1>
+
+<%= paginate @users, window: 2, outer_window: 1, theme: "twitter-bootstrap-4" %>
+
+<ul class="users mb-4">
+  <%= render @users %>
+</ul>
+
+<%= paginate @users, window: 2, outer_window: 1, theme: "twitter-bootstrap-4" %>

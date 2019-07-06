@@ -74,10 +74,6 @@ en:
     signup:
       title: "Sign up"
       submit: "Create my account"
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      confirmation: "Confirmation"
 
     errors:
       text_1: "The form contains"
@@ -88,6 +84,25 @@ en:
       password: "Password"
       remember_me: "Remember me on this computer"
       text: "New user?"
+
+    edit_user:
+      title: "Edit user"
+      update_profile: "Update your profile"
+      submit: "Save changes"
+      change_avatar: "change"
+
+    user_form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+
+    users_index:
+      title: "All users"
+    
+    user_delete:
+      delete: "Delete"
+      confirm: "You sure?"
 
   footer:
     text_1: "The"
@@ -102,10 +117,15 @@ en:
     signup_success: "Welcome to the Sample App!"
     signup_fail: "Fail Signup"
     login_fail: "Invalid email/password combination"
+    profile_update_succcess: "Profile updated"
+    profile_update_fail: "Update Fail"
+    please_login: "Please log in."
+    user_delete_success: "User deleted"
+    user_cannot_delete: "User can't be deleted"
 
   header:
     sample_app: "Sample App"
     home: "Home"
     help: "Help"
     log_in: "Log in"
-    users: "User"
+    users: "Users"
