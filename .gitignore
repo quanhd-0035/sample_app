@@ -29,6 +29,7 @@
 /test
 
 # Ignore master key for decrypting credentials and more.
+.env
 /config/master.key
 
 config/settings.local.yml
