@@ -35,6 +35,7 @@ en:
   static_pages:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+      
     home:
       title: "Sample App"
       sentence_1: "This is the home page for the"
@@ -85,6 +86,14 @@ en:
       remember_me: "Remember me on this computer"
       text: "New user?"
 
+    account_activation:
+      title: "Sample App"
+      greet: "Hi"
+      text: "Welcome to the Sample App! Click on the link below to activate your account:"
+      link: "Activate"
+      mail: "Account activation"
+      
+      
     edit_user:
       title: "Edit user"
       update_profile: "Update your profile"
@@ -122,6 +131,10 @@ en:
     please_login: "Please log in."
     user_delete_success: "User deleted"
     user_cannot_delete: "User can't be deleted"
+    activate_sucsess: "Account activated!"
+    activate_fail: "Invalid activation link"
+    not_activate: "Account not activated. Check your email for the activation link."
+    activate_check: "Please check your email to activate your account."
 
   header:
     sample_app: "Sample App"

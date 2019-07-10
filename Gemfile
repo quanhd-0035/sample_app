@@ -28,6 +28,7 @@ gem "kaminari"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+  gem "dotenv-rails"
   gem "rubocop", "~> 0.54.0", require: false
 end
 
