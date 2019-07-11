@@ -78,6 +78,7 @@ en:
 
     errors:
       text_1: "The form contains"
+      not_empty: "can't be empty"
 
     login:
       title: "Log in"
@@ -85,6 +86,7 @@ en:
       password: "Password"
       remember_me: "Remember me on this computer"
       text: "New user?"
+      reset: "(forgot password)"
 
     account_activation:
       title: "Sample App"
@@ -113,6 +115,20 @@ en:
       delete: "Delete"
       confirm: "You sure?"
 
+    reset_new:
+      title: "Forgot password"
+      submit: "Submit"
+      text_1: "Password reset"
+      text_2: "To reset your password click the link below:"
+      button: "Reset password"
+      mail_text_1: "To reset your password click the link below:"
+      mail_text_2: "This link will expire in two hours."
+      mail_text_3: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+
+    reset_edit:
+      title: "Reset password"
+      submit: "Update password"
+
   footer:
     text_1: "The"
     text_2: "Ruby on Rails Tutorial"
@@ -135,6 +151,11 @@ en:
     activate_fail: "Invalid activation link"
     not_activate: "Account not activated. Check your email for the activation link."
     activate_check: "Please check your email to activate your account."
+    reset_password_email_sent: "Email sent with password reset instructions"
+    email_not_found: "Email address not found"
+    reset_success: "Password has been reset."
+    reset_expire: "Password reset has expired."
+    no_user: "User not found!"
 
   header:
     sample_app: "Sample App"

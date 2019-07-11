@@ -4,3 +4,4 @@ minimum_length_pass: 6
 gravatar_size: 80
 pagination: 5
 user_list_gravatar_size: 50
+reset_time_out: 2
