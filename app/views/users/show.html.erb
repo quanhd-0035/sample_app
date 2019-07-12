@@ -8,4 +8,16 @@
       </h1>
     </section>
   </aside>
+
+  <div class="col-md-8">
+    <% if @user.microposts.any? %>
+      <h3>
+        <%= t "static_pages.user_show.microposts"%> (<%= @user.microposts.count %>)
+      </h3>
+      <ol class="microposts">
+        <%= render @microposts.newest_first %>
+      </ol>
+      <%= paginate @microposts, window: 2, outer_window: 1, theme: "twitter-bootstrap-4" %>
+    <% end %>
+  </div>
 </div>

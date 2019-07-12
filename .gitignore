@@ -37,3 +37,7 @@ config/settings/*.local.yml
 config/environments/*.local.yml
 activation_digest:string
 reset_sent_at:datetime
+
+public/uploads/*
+public/javascripts/i18n.js
+public/javascripts/translations.js

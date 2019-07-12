@@ -20,13 +20,13 @@ class UsersController < ApplicationController
       flash[:info] = t "flash.activate_check"
       redirect_to root_url
     else
-      flash[:success] = t "flash.signup_fail"
+      flash[:danger] = t "flash.signup_fail"
       render :new
     end
   end
 
   def show
-    return if @user
+    return @microposts = @user.microposts.page(params[:page]) if @user
     redirect_to signup_path
   end
 
@@ -37,7 +37,7 @@ class UsersController < ApplicationController
       flash[:success] = t "flash.profile_update_succcess"
       redirect_to @user
     else
-      flash[:success] = t "flash.profile_update_fail"
+      flash[:danger] = t "flash.profile_update_fail"
       render :edit
     end
   end
@@ -56,13 +56,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t "flash.please_login"
-    redirect_to login_url
   end
 
   def correct_user

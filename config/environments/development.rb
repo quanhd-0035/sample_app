@@ -64,4 +64,5 @@ Rails.application.configure do
   host = "localhost:3000"
   config.action_mailer.default_url_options = {host: host}
   config.action_mailer.smtp_settings = {address: "localhost", port: 1025}
+  config.middleware.use I18n::JS::Middleware
 end

@@ -4,10 +4,13 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 ruby "2.5.3"
 
 gem "bcrypt"
+gem "carrierwave", ">= 2.0.0.rc", "< 3.0"
 gem "coffee-rails", "~> 4.2"
 gem "config"
 gem "faker", git: "https://github.com/stympy/faker.git", branch: "master"
+gem "i18n-js"
 gem "jbuilder", "~> 2.5"
+gem "mini_magick", "~> 4.8"
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.3"
 gem "sass-rails", "~> 5.0"
