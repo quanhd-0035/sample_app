@@ -1,0 +1,6 @@
+<% if @feed_items.any? %>
+  <ol class="microposts">
+    <%= render @feed_items.newest_first %>
+  </ol>
+  <%= paginate @feed_items, window: 2, outer_window: 1, theme: "twitter-bootstrap-4" %>
+<% end %>

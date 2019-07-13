@@ -46,6 +46,7 @@ en:
       settings: "Settings"
       logout: "Log out"
       account: "Account"
+      feed: "Micropost Feed"
 
     help:
       title: "Help"
@@ -79,6 +80,7 @@ en:
     errors:
       text_1: "The form contains"
       not_empty: "can't be empty"
+      max_size: "should be less than 5MB"
 
     login:
       title: "Log in"
@@ -110,6 +112,9 @@ en:
 
     users_index:
       title: "All users"
+
+    user_show:
+      microposts: "Microposts"
     
     user_delete:
       delete: "Delete"
@@ -156,6 +161,10 @@ en:
     reset_success: "Password has been reset."
     reset_expire: "Password reset has expired."
     no_user: "User not found!"
+    micropost_success: "Micropost created!"
+    micropost_fail: "Micropost creation failed!"
+    micropost_delete_success: "Micropost deleted"
+    micropost_cannot_delete: "Micropost can't be deleted"
 
   header:
     sample_app: "Sample App"
@@ -163,3 +172,12 @@ en:
     help: "Help"
     log_in: "Log in"
     users: "Users"
+
+  microposts:
+    text_1: "Posted"
+    text_2: "ago."
+    create_placeholder: "Compose new micropost..."
+    create_submit: "Post"
+    delete: "delete"
+    confirm: "You sure?"
+    alert_js: "Maximum file size is 5MB. Please choose a smaller file."

@@ -2,6 +2,11 @@ maximum_length_name: 50
 maximum_length_email: 255
 minimum_length_pass: 6
 gravatar_size: 80
-pagination: 5
+users_pagination: 5
+microposts_pagination: 50
 user_list_gravatar_size: 50
 reset_time_out: 2
+maximum_content_length: 140
+maximum_image_size: 5
+image_height: 1000
+image_width: 1000
