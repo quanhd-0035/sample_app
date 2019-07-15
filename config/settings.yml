@@ -10,3 +10,4 @@ maximum_content_length: 140
 maximum_image_size: 5
 image_height: 1000
 image_width: 1000
+follow_gravatar_size: 30

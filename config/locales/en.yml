@@ -115,6 +115,8 @@ en:
 
     user_show:
       microposts: "Microposts"
+      follow: "Follow"
+      unfollow: "Unfollow"
     
     user_delete:
       delete: "Delete"
@@ -133,6 +135,14 @@ en:
     reset_edit:
       title: "Reset password"
       submit: "Update password"
+
+    follow:
+      profile_page: "view my profile"
+      microposts: "Microposts:"
+
+  stats:
+    following: "following"
+    followers: "followers"
 
   footer:
     text_1: "The"
@@ -181,3 +191,6 @@ en:
     delete: "delete"
     confirm: "You sure?"
     alert_js: "Maximum file size is 5MB. Please choose a smaller file."
+
+  following: "Following"
+  followers: "Followers"
